@@ -4,7 +4,7 @@ function CounterState() {
   const [count, setCount] = useState(0);
 
   function handleClick() {
-    setCount((count) => count + 1);
+    setCount((count) => count + 2);
   }
 
   return (
